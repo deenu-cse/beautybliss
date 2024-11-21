@@ -353,10 +353,11 @@ h1 {
     border-radius: 50%;
 }
 
-@media screen and (max-width:540px) {
+@media screen and (max-width:740px) {
     .testimonials-col {
         display: flex;
         flex-direction: column;
+        height: 100px;
         align-items: center;
         flex-basis: 44%;
         border-radius: 10px;
