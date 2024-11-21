@@ -1,0 +1,44 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(15-beauty-products-you-dont-need-to-waste-your-money-on.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    backdrop-filter: blur(5px);
+}
+.join-container{
+    background-color: violet;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+h2{
+    text-align: center;
+    color: #333;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.input{
+    margin: 10px 0;
+}
+label{
+    font-weight: bold;
+}
+input{
+    padding: 8px 15px;
+    background-color:solid white;
+    color: black;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+button:hover{
+    background-color:purple;
+}
